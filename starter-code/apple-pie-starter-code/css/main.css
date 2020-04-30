@@ -59,33 +59,33 @@ body {
   font-size: 16px;
   font-weight: 400;
   display: flex;
-  margin-left: 220px;
+  margin-left: 120px;
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-.Ingredients ul {
+.Ingredients ul li {
   list-style-type: none;
+  text-align: left;
 }
 
 .Ingredients li:before {
-  margin-left: 230px;
+  margin-left: 120px;
   content: '- ';
   font-weight: 100;
 }
 
 .Ingredients img {
-  width: 300px;
   height: 60px;
   position: relative;
-  margin-left: 310px;
-  margin-top: 15px;
+  margin-left: 230px;
+  margin-top: 25px;
 }
 
 .Directions h6 {
   font-size: 16px;
   font-weight: 400;
-  margin-left: 220px;
+  margin-left: 120px;
   margin-top: 50px;
   margin-bottom: 30px;
 }
@@ -96,7 +96,7 @@ body {
 }
 
 .container {
-  margin-left: 230px;
+  margin-left: 120px;
   margin-right: 90px;
 }
 
@@ -113,8 +113,8 @@ body {
 }
 
 hr {
-  width: 60%;
+  width: 80%;
   border-top: 0.05px solid;
   color: grey;
-  margin-left: 220px;
+  margin-left: 100px;
 }
