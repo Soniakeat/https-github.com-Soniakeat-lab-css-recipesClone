@@ -1,12 +1,47 @@
 /*Some necessary adjustments*/
-h1,
 body,
-html,
-main {
+html {
   margin: 0;
+  padding: 0;
+  background-color: black;
 }
+
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
+}
+
+main {
+  max-width: 518px;
+  min-width: 518px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(../images/soup.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 280px;
+  text-align: center;
+  color: white;
+}
+
+.article-container {
+  max-width: 418px;
+  min-width: 418px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-top: 0px;
+  padding-top: 120px;
+  font-weight: 100;
+}
+
+.text-size {
+  font-size: 12px;
+  margin-top: 53px;
 }
