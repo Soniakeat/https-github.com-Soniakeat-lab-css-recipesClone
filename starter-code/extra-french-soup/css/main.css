@@ -41,7 +41,39 @@ h1 {
   font-weight: 100;
 }
 
+h6 {
+  margin-bottom: 0%;
+}
+
 .text-size {
-  font-size: 12px;
+  font-size: 11px;
   margin-top: 53px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.Ingredients ul {
+  padding-left: 0%;
+}
+
+.Ingredients ul li {
+  list-style-type: none;
+  text-align: left;
+  font-size: 10px;
+}
+
+.Ingredients li:before {
+  content: '- ';
+  font-weight: 100;
+}
+
+#Ingredients-image {
+  margin-bottom: 0%;
 }
